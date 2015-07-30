@@ -1,9 +1,10 @@
 import os
+import sys
 import time
 
 for key, value in os.environ.iteritems():
-    print key, value
+    print >> sys.stderr, key, value
 
 while True:
     time.sleep(100)
-    print 'sleep, waiting for ending'
+    print >> sys.stderr, 'sleep, waiting for ending'
