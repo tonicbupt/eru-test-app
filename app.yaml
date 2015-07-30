@@ -1,0 +1,5 @@
+appname: "erutestapp"
+entrypoints:
+    showenv:
+        cmd: "python show_env.py"
+build: "echo 1"
