@@ -2,4 +2,6 @@ appname: "erutestapp"
 entrypoints:
     showenv:
         cmd: "python show_env.py"
+    runanddie:
+        cmd: "python runanddie.py"
 build: "echo 1"
