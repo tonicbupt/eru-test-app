@@ -5,3 +5,9 @@ entrypoints:
     runanddie:
         cmd: "python runanddie.py"
 build: "echo 1"
+volumes:
+    - "/mnt/files"
+binds:
+    /mnt/mfs:
+        bind: "/mnt/files"
+        ro: true
