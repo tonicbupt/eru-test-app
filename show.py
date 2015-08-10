@@ -5,5 +5,5 @@ import sys
 import time
 
 while True:
-    print >> sys.stderr,'a'
+    print >> sys.stderr,sys.argv[1]
     time.sleep(2)
