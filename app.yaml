@@ -8,7 +8,7 @@ entrypoints:
         cmd: "python algalon.py"
     show:
         cmd: "python show.py zzzzzz"
-build: "echo 1"
+build: "pip install requests"
 volumes:
     - "/mnt/files"
 binds:
