@@ -4,6 +4,8 @@ entrypoints:
         cmd: "python show_env.py"
     runanddie:
         cmd: "python runanddie.py"
+    algalon:
+        cmd: "python algalon.py"
 build: "echo 1"
 volumes:
     - "/mnt/files"
