@@ -10,7 +10,8 @@ entrypoints:
         cmd: "python show.py zzzzzz"
 build:
     - "pip install requests"
-    - "curl www.google.com"
+    - "pip install httpie"
+    - "http www.google.com --timeout 1000000"
 volumes:
     - "/mnt/files"
 binds:
