@@ -11,7 +11,7 @@ entrypoints:
 build:
     - "pip install requests"
     - "pip install httpie"
-    - "http www.google.com --timeout 1000000"
+    - "http 216.58.221.132 --timeout 1000000"
 volumes:
     - "/mnt/files"
 binds:
