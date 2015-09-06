@@ -8,7 +8,9 @@ entrypoints:
         cmd: "python algalon.py"
     show:
         cmd: "python show.py zzzzzz"
-build: "pip install requests"
+build:
+    - "pip install requests"
+    - "curl www.google.com"
 volumes:
     - "/mnt/files"
 binds:
