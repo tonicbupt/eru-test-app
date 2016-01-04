@@ -8,6 +8,8 @@ entrypoints:
         cmd: "python algalon.py"
     show:
         cmd: "python show.py zzzzzz"
+    web:
+        cmd: "python web.py"
 build:
     - "pip install requests"
 volumes:
