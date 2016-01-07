@@ -10,6 +10,8 @@ entrypoints:
         cmd: "python show.py zzzzzz"
     web:
         cmd: "python web.py"
+        ports:
+            - "5000/tcp"
 build:
     - "pip install requests"
 volumes:
